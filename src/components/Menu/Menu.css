@@ -1,0 +1,30 @@
+.menu {
+  list-style: none;
+  flex-shrink: 0;
+  padding: 4rem 16px;
+  margin: 0;
+  height: 100vh;
+  overflow: auto;
+  position: sticky;
+  top: 0;
+  flex: 1;
+}
+
+.menu-item {
+  margin: 0.5rem 0;
+}
+
+.menu-item .btn {
+  font-family: "Geologica", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #022b3a;
+  padding: 5px 20px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.menu-item .btn.active {
+  background-color: #022b3a;
+  color: #fff;
+}

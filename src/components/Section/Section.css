@@ -1,0 +1,32 @@
+.section {
+  margin: 0 0 4rem;
+}
+
+.section p {
+  font-size: 1.1rem;
+  line-height: 2rem;
+  margin: 0;
+}
+
+h3.section-title {
+  font-family: "Geologica", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #022b3a;
+  margin: 0 0 2rem;
+}
+
+.experience-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.experience-list .item {
+  margin: 15px 0;
+}
+
+.company-date h4 {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
