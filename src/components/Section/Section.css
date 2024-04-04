@@ -1,32 +1,80 @@
 .section {
-  margin: 0 0 4rem;
+  margin: 0 auto 4rem;
+  max-width: 900px;
 }
 
 .section p {
   font-size: 1.1rem;
-  line-height: 2rem;
-  margin: 0;
+  line-height: 1.7rem;
+  margin: 0 0 5px;
 }
 
 h3.section-title {
-  font-family: "Geologica", sans-serif;
+  font-family: "Inter Tight", sans-serif;
   font-weight: 700;
   font-size: 2.5rem;
   color: #022b3a;
-  margin: 0 0 2rem;
+  margin: 0 0 1rem;
 }
 
-.experience-list {
+.list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.experience-list .item {
+.list .item {
   margin: 15px 0;
 }
 
 .company-date h4 {
-  margin: 10px 0;
+  margin: 0;
   font-size: 1.1rem;
+}
+
+.company-date p {
+  font-size: 0.8rem;
+  color: #a6a5a5;
+}
+
+.link {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #022b3a;
+  padding: 5px 20px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.section.contact-section {
+  background-color: #0e4f67;
+  color: white;
+  margin: 0;
+  padding: 1.5rem 0;
+  box-sizing: border-box;
+  min-width: 100%;
+}
+
+.section.section.contact-section h3.section-title {
+  margin-bottom: 1rem;
+  color: #FFF;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+  padding: 0;
+}
+
+.link {
+  color: #fffcec;
+  font-size: 2rem;
+}
+
+#skills .list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }

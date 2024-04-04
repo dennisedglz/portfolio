@@ -1,13 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Montserrat:wght@100;400&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Cabin:ital,wght@0,400..700;1,400..700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Lexend+Deca:wght@100..900&family=Lexend:wght@100..900&family=Outfit:wght@100..900&family=Paytone+One&family=Sora:wght@100..800&display=swap');
+
 body {
   margin: 0;
   font-family: "Geologica", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  font-family: "Sora", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+  font-family: "Paytone One", sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-family: "Lexend", sans-serif;
+  font-family: "Cabin", sans-serif;
+  font-family: "Inter Tight", sans-serif;
+  /*font-family: "Archivo Black", sans-serif;*/
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    
 }

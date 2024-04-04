@@ -4,14 +4,16 @@
   padding: 4rem 16px;
   margin: 0;
   height: 100vh;
-  overflow: auto;
+  background-color: #bbd7e2;
   position: sticky;
   top: 0;
   flex: 1;
+  white-space: nowrap;
+  min-width: 16%;
 }
 
 .menu-item {
-  margin: 0.5rem 0;
+  margin: 1rem 0;
 }
 
 .menu-item .btn {
@@ -22,9 +24,10 @@
   padding: 5px 20px;
   box-sizing: border-box;
   display: inline-block;
+  text-decoration: none;
 }
 
-.menu-item .btn.active {
+.menu-item .btn.menu-link-active {
   background-color: #022b3a;
   color: #fff;
 }

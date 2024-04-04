@@ -21,11 +21,13 @@
 }
 
 .background-text h2 {
-  color: #cfe0e7;
+  color: #bbd7e2;
   font-size: 18vw;
   line-height: 21vw;
   margin: 0;
-  text-shadow: 12px 0 rgb(126 138 156 / 20%);
+  letter-spacing: 7px;
+  font-family: "Paytone One", sans-serif;
+  text-align: center;
 }
 
 .centered-content {
@@ -57,4 +59,13 @@ h1.title-dark {
 .background-text h2.dark {
   color: #2f424d;
   text-shadow: 12px 0 rgb(96 107 123 / 20%);
+}
+
+
+:root {
+  --step0: #fefefb;
+  --step1: #fffcec;
+  --step2: #edfaff;
+  --step3: #356d94;
+  --step4: #e6e6e6;
 }

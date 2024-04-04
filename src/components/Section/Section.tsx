@@ -16,16 +16,20 @@ export interface ListContent {
  }
 
 interface SectionProps {
-   classes: string,
+   id: string,
    content?: SectionContent,
    children?: React.ReactNode,
 }
 
-const Section: FC<SectionProps> = ({classes, content, children}) => (
-      <div className={`section ${classes}`}> 
+const Section: FC<SectionProps> = ({id, content, children}) => (
+      <div className={`section`} id={`${id}`}> 
          {content?.title && <h3 className='section-title'>{content.title}</h3> } 
-         {content?.text && <p>{content.text}</p> }
-            <ul className='experience-list'> 
+         <div>
+            {content?.text && content.text.split("\n").map((t, key) => {
+               return <p key={key}>{t}</p>;
+            })}
+         </div>
+            <ul className='list'> 
             { content?.list && content.list.map((item) => (
                   <li className='item'>
                      <div className='company-date'>
@@ -40,8 +44,13 @@ const Section: FC<SectionProps> = ({classes, content, children}) => (
                      </div>
 
                      {
-                        item.text && !item.link && <p>{item.text}</p>
+                        //item.text && !item.link && <p>{item.text}</p>
                      }
+                     <div>
+                        {item.text && !item.link && item.text.split("\n").map((t, key) => {
+                           return <p key={key}>{t}</p>;
+                        })}
+                     </div>
 
                      {
                         item.link && <a className='link' href={`${item.link}`} target='_blank'> {item.text} </a>

@@ -5,7 +5,7 @@ import Section from './Section';
 
 describe('<Section />', () => {
   test('it should mount', () => {
-    render(<Section classes='test'><div></div></Section>);
+    render(<Section id='test'><div></div></Section>);
     
     const section = screen.getByTestId('Section');
 

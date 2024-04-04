@@ -3,21 +3,10 @@
 }
 
 .sections {
-  min-height: 100vh;
   width: 100%;
   box-sizing: border-box;
   padding: 4rem 5%;
-  max-width: 900px;
   margin: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter Tight", sans-serif;
   text-align: left;
-}
-
-.company-date {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
